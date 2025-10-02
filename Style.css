@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: grey;
+   
+   
+}
+.cabecalho{
+    background-color:#234C6A;
+    text-align: center;
+   
+}
+
+.cabecalho > h1{
+    padding: 1em;
+    font-weight: bold;
+    color: burlywood;
+}
+.rodape{
+    display: flex;
+    flex-direction: column;
+    justify-content: e;
+   font-size: 1.5em;
+   background-color: #234C6A;
+   padding: 1em;
+   color: azure;
+ 
+
+
+}
+.rodape> a{
+    color: aliceblue;
+    text-decoration: none;
+}
+.rodape> img{
+    width: 20%;
+    border-radius: 20px;
+    opacity: 0.7;
+}
+.imgcabecalho{
+    width: 20%;
+    border-radius: 10px;
+    border: solid 1em grey;
+
+    
+
+}
+div{
+    text-align: center;
+}
+p{
+    padding: 1em;
+    font-size: 2em;
+    text-transform: uppercase;
+    color: aliceblue;
+}
+h1{
+    color: beige;
+}
